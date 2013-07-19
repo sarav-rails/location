@@ -1,3 +1,131 @@
-<%= form_tag do %>
-  Form contents
-<% end %>
+<table width="518" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" class="Paragraph-IndentBlack">
+
+<input value="someone@nowhere.com" class="validate[required,custom[email]]" type="text" name="email" id="email" />
+<input value="2010-12-01" class="validate[required,custom[date]]" type="text" name="date" id="date" />
+<input value="too many spaces obviously" class="validate[required,custom[onlyLetterNumber]]" type="text" name="special" id="special" />
+      <!--DWLayoutTable-->
+      <tbody><tr bgcolor="#E5E5E5"> 
+          <td valign="middle" align="left" height="22" colspan="3"><strong>&nbsp;Billing Information (required)</strong></td>
+        </tr>
+        <tr> 
+          <td width="180" valign="middle" align="right" height="22">First Name:</td>
+          <td align="left" colspan="2">
+            <input type="text" size="50" name="firstName"></td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="right" height="22">Last Name:</td>
+          <td align="left" colspan="2">
+            <input type="text" size="50" name="lastName"></td>
+        </tr>
+        <tr>  
+          <td valign="middle" align="right" height="22">Company (optional):</td>
+          <td align="left" colspan="2">
+            <input type="text" size="50" name="company"></td>
+        </tr>
+              
+        <tr> 
+                
+          <td valign="middle" align="right" height="22">Street Address:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="address1"></td>
+        </tr>
+                     
+        <tr> 
+          <td valign="middle" align="right" height="22">Street Address (2):</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="address2"></td>
+        </tr>
+           
+        <tr> 
+          <td valign="middle" align="right" height="22">City:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="city"></td>
+        </tr>
+         
+        <tr> 
+          <td valign="middle" align="right" height="22">State/Province:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="state"></td>
+        </tr>
+		<tr> 
+          <td valign="middle" align="right" height="22">Zip/Postal Code:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="zip"></td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="right" height="22">Country:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="country"></td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="right" height="22">Phone:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="phone"></td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="left" height="22" colspan="3">&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E5E5E5"> 
+          <td valign="middle" align="left" height="22" colspan="3"><strong>&nbsp;Credit Card (required)</strong></td>
+        </tr>
+         <tr> 
+          <td valign="middle" align="right" height="22">Credit Card Number:</td>
+          <td align="left" colspan="2"><input type="text" maxlength="40" size="19" value="" name="CCNo">
+		  </td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="right" height="22">Expiry Date:</td>
+          <td align="left" colspan="2">
+<select name="CCExpiresMonth">
+<option selected="" value="">--Month--
+</option><option value="01">January (01)
+</option><option value="02">February (02)
+</option><option value="03">March (03)
+</option><option value="04">April (04)
+</option><option value="05">May (05)
+</option><option value="06">June (06)
+</option><option value="07">July (07)
+</option><option value="08">August (08)
+</option><option value="09">September (09)
+</option><option value="10">October (10)
+</option><option value="11">November (11)
+</option><option value="12">December (12)
+</option></select> /
+<select name="CCExpiresYear">
+<option selected="" value="">--Year--
+</option><option value="04">2004
+</option><option value="05">2005
+</option><option value="06">2006
+</option><option value="07">2007
+</option><option value="08">2008
+</option><option value="09">2009
+</option><option value="10">2010
+</option><option value="11">2011
+</option><option value="12">2012
+</option><option value="13">2013
+</option><option value="14">2014
+</option><option value="15">2015
+</option></select>
+
+			</td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="left" height="22" colspan="3"><!--DWLayoutEmptyCell-->&nbsp;</td>
+        </tr>
+        <tr bgcolor="#E5E5E5"> 
+          <td valign="middle" align="left" height="22" colspan="3"><strong>&nbsp;Additional Information</strong></td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="right" height="22">Contact Email:</td>
+          <td align="left" colspan="2">
+                <input type="text" size="50" value="" name="contactEmail"></td>
+        </tr>
+        <tr> 
+          <td valign="middle" align="left" height="22" colspan="3"><!--DWLayoutEmptyCell-->&nbsp;</td>
+        </tr>
+        <tr> 
+          <td valign="top" align="right" height="22">Special Notes:</td>
+          <td align="left" colspan="2"><textarea rows="4" cols="45" name="notes"></textarea>			</td>
+        </tr>
+              
+    </tbody></table>
